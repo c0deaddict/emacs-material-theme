@@ -49,7 +49,7 @@
        (256color  (eq (display-color-cells (selected-frame)) 256))
        (truecolor (eq (display-color-cells (selected-frame)) 16777216))
 
-       (background (if (or window-system truecolor) "#263238" "#262626")) ;; sidebar-container
+       (background (if (or window-system truecolor) "#262626" "#262626")) ;; sidebar-container
        (current-line (if (or window-system truecolor)  "#37474f" "#3a3a3a")) ;; tree-row
        (far-background (if (or window-system truecolor)  "#1c1f26" "#121212")) ;; panel-control
        (inactive-gray (if (or window-system truecolor) "#78909c" "#8a8a8a"))
